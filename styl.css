@@ -1,0 +1,36 @@
+ body{
+     margin: 0px;
+     padding: 0px 0px 0px 400px;
+}
+table {
+    border: 0px solid black;
+    border-collapse: collapse;
+}
+th{
+    border-collapse: collapse;
+    background: powderblue;
+    text-align: left;
+    padding: 10px;
+}
+td{
+    padding: 5px 10px 5px 0px;
+    font-family:serif;
+    text-align: left;
+}
+table#t01 tr:nth-child(odd) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #fff;
+}
+table#t01 th {
+    color: white;
+    background-color: black;
+}
+.video{
+         margin: 0px 10%;
+        display: inline-block;
+}
+ a {
+	 text-decoration: none; 
+}
